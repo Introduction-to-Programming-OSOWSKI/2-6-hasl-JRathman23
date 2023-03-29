@@ -1,7 +1,7 @@
 def hasL(w):
     for i in range(0,7):
         if w[i]=="l":
-            return("true")
+            return(True)
         else:
-            return("false")
+            return(False)
 hasL("alabama")
